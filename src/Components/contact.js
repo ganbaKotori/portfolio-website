@@ -21,14 +21,10 @@ class Contact extends Component {
                     <div className="contact-list">
                     <List>
   <ListItem>
-    <ListItemContent icon="email">alexander.ramirez@student.csulb.edu</ListItemContent>
+    <ListItemContent icon="email" style={{fontsize:'2em', fontFamily: 'Arvo'}}><div className="contact-text">alexander.ramirez@student.csulb.edu</div></ListItemContent>
   </ListItem>
-  <ListItem>
-    <ListItemContent icon="person">Aaron Paul</ListItemContent>
-  </ListItem>
-  <ListItem>
-    <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-  </ListItem>
+  
+ 
 </List>
 </div>
                 </Cell>
