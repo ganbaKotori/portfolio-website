@@ -12,25 +12,24 @@ class Projects extends Component {
         if(this.state.activeTab === 0 ){
             return(
                 <div className = "projects-grid"><Card shadow={0} style={{width: '512px', margin: '1em'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Portfolio Website</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(me.jpg) center / cover'}}>Portfolio Website</CardTitle>
                 <CardText>
-                    My own personal portfolio website that I created in React and published on Github Pages. I use Bootstrap 
+                    My own personal portfolio website that I created in React and published on Github Pages.
                 </CardText>
                 <CardActions border>
-                    <Button colored>Visit (you're alreaday here)</Button>
-                    <Button colored>Github</Button>
+                <Button colored><a href="https://github.com/ganbaKotori/portfolio-website" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     
                 </CardMenu>
             </Card>
             <Card shadow={0} style={{width: '512px', margin: '1em'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nodi.online</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.newcybersource.com/wp-content/uploads/2018/05/network-solutions-subheader.jpg) center / cover'}}>Nodi.online</CardTitle>
                 <CardText>
-                    Social media website written in React intended for users submitting projects.
+                    Social media website written in React intended for project management. (Currently in development)
                 </CardText>
                 <CardActions border>
-                    <Button colored>Get Started</Button>
+                <Button colored><a href="https://github.com/ganbaKotori/nodi-app" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     
@@ -41,24 +40,25 @@ class Projects extends Component {
         } else if(this.state.activeTab === 1){
             return(
                 <div className = "projects-grid"><Card shadow={0} style={{width: '512px', margin: '1em'}}>
-                <CardTitle style={{color: '#000', height: '300px', background: 'url(mascotmayhem.png) center / cover'}}>Mascot Mayhem</CardTitle>
+                <CardTitle style={{ color: '#000', height: '176px', background: 'url(mascotmayhem2.png) center / cover'}}>Mascot Mayhem</CardTitle>
                 <CardText>
-                    3D Unity video game inspired by the pursuit of a new mascot for Cal State Long Beach. Developed for the Video Game Development Association.
+                    3D Unity video game inspired by the pursuit for a new mascot to represent Cal State Long Beach. Developed for the Video Game Development Association.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/ganbaKotori/TBBnut" style={{ textDecoration: 'none' ,color: 'black' }}>Github</a></Button>
+                    <Button colored><a href="https://github.com/ganbaKotori/TBBnut" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     
                 </CardMenu>
             </Card>
+            
             <Card shadow={0} style={{width: '512px', margin: '1em'}}>
-                <CardTitle style={{color: '#000', height: '300px', background: 'url(lightGoddess.png) center / cover', fontWeight:'bold'}}>Mothia</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(mothia.png) center / cover'}}>Mothia</CardTitle>
                 <CardText>
-                    Tower Defense video game created with Unity. Developed for the Video Game Development Association in the Fall of 2018.
+                Tower Defense video game created with Unity. Developed for the Video Game Development Association in the Fall of 2018.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/ganbaKotori/TBBnut" style={{ textDecoration: 'none' ,color: 'black' }}>Github</a></Button>
+                <Button colored><a href="https://github.com/ganbaKotori/Mothia" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     
@@ -74,7 +74,7 @@ class Projects extends Component {
                     Android application developed in Android Studio using Java. This project was developed at the 2019 AT&T Shape Hackathon.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/ganbaKotori/maya-app" style={{ textDecoration: 'none' ,color: 'black' }}>Github</a></Button>
+                    <Button colored><a href="https://github.com/ganbaKotori/maya-app" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     
@@ -87,7 +87,7 @@ class Projects extends Component {
                     Class project for my Database Fundamentals Course. It is a Java program that executes queries for a local Apache Derby database server. 
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/ganbaKotori/maya-app" style={{ textDecoration: 'none' ,color: 'black' }}>Github</a></Button>
+                    <Button colored><a href="https://github.com/ganbaKotori/CECS323jdbc" style={{ textDecoration: 'none' ,color: 'black' }}  target="_blank">Github</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     

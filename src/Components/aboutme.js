@@ -1,9 +1,31 @@
 import React, {Component} from 'react';
+import { Grid, Cell } from 'react-mdl';
 
 class About extends Component {
     render(){
         return(
-            <div><h1>About Page</h1><p>How's it going? You can call me Alex. I am 23 years old. I'm a student at Cal State Long Beach.</p></div>
+            <div style={{width: '100%', margin: 'auto'}}>
+                <Grid className="landing-grid">
+                    <Cell col={12}>
+                        <img 
+                            src="meborder.png"
+                            alt="avatar"
+                            className="avatar-img"
+                            />
+
+                        <div className="about-text">
+                        <h1>About me</h1>
+                        <hr/>
+
+                        <p>You can call me Alex. I'm 23 years old and I reside in Los Angeles. I go to Cal State Long Beach where I'm working towards my Bachelor's in Computer Science. In my productive spare time I like to create video games and websites just like this one.
+                            When I'm not feeling productive, I will read books and play Overwatch. I am currently engaged and I plan to marry my fiance next year.
+                        </p>
+
+                        
+                        </div>
+                    </Cell>
+                </Grid>
+            </div>
         )
     }
 }

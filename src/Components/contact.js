@@ -12,7 +12,7 @@ class Contact extends Component {
                         src="meborder.png"
                         alt="avatar"
                         style={{height: '250px'}}
-                   /><p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello please contact me. I am looking for internships in the summer. When I graduate in Spring of 2020, I am planning to acquire a full time position job.</p>
+                   /><p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Send me an email for any inquiries about me and I will get back to you as soon as possible.</p>
                 </Cell>
                 <Cell col={6}>
                     <h2>Contact Me</h2>

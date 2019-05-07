@@ -34,8 +34,41 @@ text-align: center;
   
 }
 
+.about-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 1em;
+  
+}
+.about-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  
+  
+  
+}
+
+.about-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+
+}
+
+.about-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  letter-spacing: .3em;
+  line-height: 2em;
+}
+
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
   
@@ -56,11 +89,13 @@ text-align: center;
   padding: 1em;
 }
 
+
+
 .social-links {
   color: white;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
    
   
 }
@@ -69,6 +104,7 @@ text-align: center;
   color: white;
   font-size: 5em;
   padding: 8px;
+
 
 }
 
@@ -139,3 +175,4 @@ background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, F
   font-size: 1.5em;
   text-align: center;
 }
+
