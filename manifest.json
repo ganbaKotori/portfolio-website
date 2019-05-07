@@ -1,7 +1,7 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "homepage": "https://ganbaKotori.github.io/portfolio-website",
+  "homepage": "npm",
   "icons": [
     {
       "src": "favicon.ico",
