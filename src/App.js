@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, HeaderRow, Textfield } from 'react-mdl';
 import Main from './Components/main';
-import { Link } from 'react-router-dom';
+import { HashRouter, Link, Route } from 'react-router-dom';
 
 
 
@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
+      <HashRouter basename='/'>
       <div className="demo-big-content">
     <Layout>
     <Header className="header-color" title={<Link to="/"  style={{ textDecoration: 'none' ,color: 'white' }} >Alexander James Ramirez</Link>} scroll>
@@ -34,6 +35,7 @@ class App extends Component {
         </Content>
     </Layout>
 </div>
+</HashRouter>
 
     );
   }
