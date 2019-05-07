@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.59521e65.chunk.css",
-    "main.js": "/static/js/main.fb656af7.chunk.js",
-    "main.js.map": "/static/js/main.fb656af7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.e82c7dd5.chunk.js": "/static/js/2.e82c7dd5.chunk.js",
-    "static/js/2.e82c7dd5.chunk.js.map": "/static/js/2.e82c7dd5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4481528c405a01f97f56228388ec1b72.js": "/precache-manifest.4481528c405a01f97f56228388ec1b72.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.59521e65.chunk.css.map": "/static/css/main.59521e65.chunk.css.map"
+    "main.css": "/portfolio-website/static/css/main.59521e65.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.321a953c.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.321a953c.chunk.js.map",
+    "runtime~main.js": "/portfolio-website/static/js/runtime~main.7784a2cd.js",
+    "runtime~main.js.map": "/portfolio-website/static/js/runtime~main.7784a2cd.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/portfolio-website/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.e82c7dd5.chunk.js": "/portfolio-website/static/js/2.e82c7dd5.chunk.js",
+    "static/js/2.e82c7dd5.chunk.js.map": "/portfolio-website/static/js/2.e82c7dd5.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.78199db83979aa4368cdbed98d604cd6.js": "/portfolio-website/precache-manifest.78199db83979aa4368cdbed98d604cd6.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/portfolio-website/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.59521e65.chunk.css.map": "/portfolio-website/static/css/main.59521e65.chunk.css.map"
   }
 }
