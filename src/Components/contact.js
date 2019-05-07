@@ -9,7 +9,7 @@ class Contact extends Component {
                 <Cell col={6}>
                    <h2>Alexander Ramirez</h2>
                    <img 
-                        src="meborder.png"
+                        src="https://github.com/ganbaKotori/portfolio-website/blob/master/public/meborder.png?raw=true"
                         alt="avatar"
                         style={{height: '250px'}}
                    /><p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Send me an email for any inquiries about me and I will get back to you as soon as possible.</p>

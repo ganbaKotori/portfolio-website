@@ -8,7 +8,7 @@ class About extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="meborder.png"
+                            src="https://github.com/ganbaKotori/portfolio-website/blob/master/public/meborder.png?raw=true"
                             alt="avatar"
                             className="avatar-img"
                             />
