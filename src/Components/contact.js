@@ -21,7 +21,7 @@ class Contact extends Component {
                     <div className="contact-list">
                     <List>
   <ListItem>
-    <ListItemContent icon="email" style={{fontsize:'2em', fontFamily: 'Arvo'}}><div className="contact-text">alexander.ramirez@student.csulb.edu</div></ListItemContent>
+    <ListItemContent icon="email" style={{fontsize:'1em', fontFamily: 'Arvo'}}><div className="contact-text">alexander.ramirez@student.csulb.edu</div></ListItemContent>
   </ListItem>
   
  
